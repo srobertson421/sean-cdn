@@ -27,7 +27,7 @@ const getAllFiles = function(dirPath, filesArray) {
   return arrayOfFiles
 }
 
-const jsFiles = getAllFiles('./cdn', []);
+const jsFiles = getAllFiles('./js', []);
 console.log(jsFiles);
 
 function handleMinifyError(err) {
