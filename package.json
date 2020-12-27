@@ -1,0 +1,25 @@
+{
+  "name": "sean-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./minify-js.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srobertson421/sean-cdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srobertson421/sean-cdn/issues"
+  },
+  "homepage": "https://github.com/srobertson421/sean-cdn#readme",
+  "devDependencies": {
+    "@node-minify/core": "^6.1.0",
+    "@node-minify/uglify-es": "^6.1.0",
+    "@node-minify/uglify-js": "^6.1.0"
+  }
+}
